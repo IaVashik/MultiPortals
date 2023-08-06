@@ -1,0 +1,18 @@
+PortalRefract
+{
+	$translucent 1
+	$Stage 2
+	$PortalOpenAmount "0"
+	$PortalStatic "1"
+	$UseOnStaticProp 1
+	$PortalMaskTexture "models/portals/noise-blur-256x256"
+	$PortalColorGradientDark "{0 0 0}"
+	$PortalColorGradientLight "{0 166 166}"
+	$PortalColorScale "3.0"
+
+	Proxies
+	{
+		"MaterialModify" {}
+		"MaterialModifyAnimated" {}
+	}
+}
