@@ -19,7 +19,7 @@ MultiPortals is a collection of instances that allows the use of different color
 5. Don't forget to assign a unique targetname to each instance for proper functionality.
 6. When your map is ready, pack the content from `CustomContent` into your BSP map.
 
-Если вы хотите, вы можете кастомизировать vmt для получения более уникальных пар порталов 
+If you want, you can customize `.vmt` files to get more unique portal pairs!
 
 ## MultiPortals includes the following set of instances:
 
@@ -39,20 +39,23 @@ If you're not sure how to use it, check out the examples provided in the `Exampl
 
 The MultiPortals package includes the following example maps:
 
-1. 8-Portal Switch
+1. `8-Portal Switch`
     - This map showcases the usage of 8 portals along with buttons that allow you to switch between them. It demonstrates the versatility of MultiPortals by incorporating multiple portals in a single map.
+    <img src="Other\8PortalSwitch.jpg">
 
-2. Custom Colored Portals
+2. `Custom Colored Portals`
     - In this map, the original portal colors have been replaced with custom colors. It highlights the ability of MultiPortals to provide a unique and personalized visual experience by allowing you to choose the colors for your portals.
+    <img src="Other\CustomColoredPortals.jpg">
 
-3. Dynamic Lit Default Portals
+3. `Dynamic Lit Default Portals`
     - This map demonstrates the use of regular portals with dynamic lighting. It showcases the immersive and visually stunning effects that MultiPortals can offer by enhancing the standard portal experience with dynamic lighting.
+    <img src="Other\DynamicLitDefaultPortals.jpg">
 
 Feel free to explore these example maps to gain a better understanding of how to utilize the MultiPortals package's features and unleash your creativity <3
 
 ## How It Works
 
-To understand how MultiPortals works, watch the YouTube video linked here (later)
+To understand how MultiPortals works, watch the YouTube video linked here: (later)
 
 ## Credits
 The MultiPortals was created by <a href="https://www.youtube.com/@laVashikProductions">laVashik</a>. Please give credit to laVashik when using this library in your projects :>
