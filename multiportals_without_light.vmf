@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "132"
+	"mapversion" "129"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "132"
+	"mapversion" "129"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -492,46 +492,6 @@ world
 }
 entity
 {
-	"id" "3250"
-	"classname" "env_fade"
-	"duration" "0.3"
-	"holdtime" "0.04"
-	"renderamt" "125"
-	"rendercolor" "$portal2-color"
-	"ReverseFadeDuration" "0.3"
-	"spawnflags" "1"
-	"targetname" "fade"
-	"origin" "-56 40 -24"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "3288"
-	"classname" "env_fade"
-	"duration" "0.3"
-	"holdtime" "0.04"
-	"renderamt" "125"
-	"rendercolor" "125 125 125"
-	"ReverseFadeDuration" "0.3"
-	"spawnflags" "1"
-	"targetname" "fade-disable"
-	"origin" "-56 40 -8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "3193"
 	"classname" "logic_relay"
 	"spawnflags" "0"
@@ -616,148 +576,6 @@ entity
 }
 entity
 {
-	"id" "1430"
-	"classname" "math_colorblend"
-	"colormax" "$portal1-color"
-	"colormin" "0 0 0"
-	"inmax" "16"
-	"inmin" "0"
-	"spawnflags" "1"
-	"targetname" "Dynamic_light_set-1"
-	connections
-	{
-		"OutColor" "portal1-dynamic-lightColor0-1"
-	}
-	"origin" "-56 -8 -8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1439"
-	"classname" "math_counter"
-	"max" "16"
-	"min" "0"
-	"StartDisabled" "0"
-	"startvalue" "0"
-	"targetname" "Dynamic_light_counter-1"
-	connections
-	{
-		"OutValue" "Dynamic_light_set-1InValue0-1"
-		"OnHitMax" "Dynamic_light_add-1Disable0-1"
-		"OnUser1" "!selfSetValue00-1"
-		"OnUser1" "Dynamic_light_add-1Enable0-1"
-		"OnHitMin" "Dynamic_light_substract-1Disable0-1"
-	}
-	"origin" "-56 -8 8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1475"
-	"classname" "logic_timer"
-	"RefireTime" "0.01"
-	"spawnflags" "0"
-	"StartDisabled" "1"
-	"targetname" "Dynamic_light_add-1"
-	"UseRandomTime" "0"
-	connections
-	{
-		"OnTimer" "Dynamic_light_counter-1Add10-1"
-	}
-	"origin" "-56 -8 24"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1500"
-	"classname" "math_colorblend"
-	"colormax" "$portal2-color"
-	"colormin" "0 0 0"
-	"inmax" "16"
-	"inmin" "0"
-	"spawnflags" "1"
-	"targetname" "Dynamic_light_set-2"
-	connections
-	{
-		"OutColor" "portal2-dynamic-lightColor0-1"
-	}
-	"origin" "-56 8 -8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1502"
-	"classname" "math_counter"
-	"max" "16"
-	"min" "0"
-	"StartDisabled" "0"
-	"startvalue" "0"
-	"targetname" "Dynamic_light_counter-2"
-	connections
-	{
-		"OutValue" "Dynamic_light_set-2InValue0-1"
-		"OnUser1" "Dynamic_light_add-2Enable0-1"
-		"OnUser1" "!selfSetValue00-1"
-		"OnHitMin" "Dynamic_light_substract-2Disable0-1"
-		"OnHitMax" "Dynamic_light_add-2Disable0-1"
-	}
-	"origin" "-56 8 8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1504"
-	"classname" "logic_timer"
-	"RefireTime" "0.01"
-	"spawnflags" "0"
-	"StartDisabled" "1"
-	"targetname" "Dynamic_light_add-2"
-	"UseRandomTime" "0"
-	connections
-	{
-		"OnTimer" "Dynamic_light_counter-2Add10-1"
-	}
-	"origin" "-56 8 24"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "1564"
 	"classname" "math_counter"
 	"max" "2"
@@ -812,50 +630,6 @@ entity
 		"OnProxyRelay" "CustomPortals-DisableTrigger0-1"
 	}
 	"origin" "-56 24 8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1704"
-	"classname" "logic_timer"
-	"RefireTime" "0.01"
-	"spawnflags" "0"
-	"StartDisabled" "1"
-	"targetname" "Dynamic_light_substract-1"
-	"UseRandomTime" "0"
-	connections
-	{
-		"OnTimer" "Dynamic_light_counter-1Subtract40-1"
-	}
-	"origin" "-56 -8 40"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "1706"
-	"classname" "logic_timer"
-	"RefireTime" "0.01"
-	"spawnflags" "0"
-	"StartDisabled" "1"
-	"targetname" "Dynamic_light_substract-2"
-	"UseRandomTime" "0"
-	connections
-	{
-		"OnTimer" "Dynamic_light_counter-2Subtract40-1"
-	}
-	"origin" "-56 8 40"
 	editor
 	{
 		"color" "220 30 220"
@@ -952,6 +726,46 @@ entity
 	"targetname" "portal2_sound"
 	"volstart" "0"
 	"origin" "-56 24 40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3250"
+	"classname" "env_fade"
+	"duration" "0.3"
+	"holdtime" "0.04"
+	"renderamt" "125"
+	"rendercolor" "$portal2-color"
+	"ReverseFadeDuration" "0.3"
+	"spawnflags" "1"
+	"targetname" "fade"
+	"origin" "-56 40 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "3288"
+	"classname" "env_fade"
+	"duration" "0.3"
+	"holdtime" "0.04"
+	"renderamt" "125"
+	"rendercolor" "125 125 125"
+	"ReverseFadeDuration" "0.3"
+	"spawnflags" "1"
+	"targetname" "fade-disable"
+	"origin" "-56 40 -8"
 	editor
 	{
 		"color" "220 30 220"
@@ -1319,56 +1133,6 @@ entity
 	"SuppressAnimSounds" "0"
 	"targetname" "portal1-base"
 	"origin" "63.546 -35.0061 -8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "406"
-	"classname" "light_dynamic"
-	"_cone" "0"
-	"_inner_cone" "0"
-	"_light" "0 0 0"
-	"angles" "0 180 0"
-	"brightness" "3"
-	"distance" "120"
-	"parentname" "portal2-base"
-	"pitch" "-90"
-	"spawnflags" "0"
-	"spotlight_radius" "80"
-	"style" "0"
-	"targetname" "portal2-dynamic-light"
-	"origin" "46.991 35 -8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "444"
-	"classname" "light_dynamic"
-	"_cone" "0"
-	"_inner_cone" "0"
-	"_light" "0 0 0"
-	"angles" "0 180 0"
-	"brightness" "3"
-	"distance" "120"
-	"parentname" "portal1-base"
-	"pitch" "-90"
-	"spawnflags" "0"
-	"spotlight_radius" "80"
-	"style" "0"
-	"targetname" "portal1-dynamic-light"
-	"origin" "46.991 -36 -8"
 	editor
 	{
 		"color" "220 30 220"
