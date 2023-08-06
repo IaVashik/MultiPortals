@@ -2,7 +2,7 @@
 <img src="other\logo.png" alt="Logo" >
 
 <h2 align="center">
-    Your portals. Your rules. Your colors. MultiPortals!
+    Your portals. Your colors. Your rules!
 </h2>
 </div>
 
