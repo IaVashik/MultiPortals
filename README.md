@@ -18,12 +18,12 @@ MultiPortals is a collection of instances that allows the use of different color
 4. Use `multiportals.vmf` or another instance in a `func_instance` entity. It's that simple!
 5. Don't forget to assign a unique targetname to each instance for proper functionality.
 6. When your map is ready, pack the content from `CustomContent` into your BSP map.
+7. Don't forget to give me a credit in the description :D
 
 If you want, you can customize `.vmt` files to get more unique portal pairs!
 
 ## MultiPortals includes the following set of instances:
 
-- `multiportals_controller`: If you plan to use more than 4 pairs of portals or want to switch between portals through an instance, add one instance of this to your map.
 - `multiportals.vmf`: The main instance that allows you to choose custom portal colors, sounds, and portal pair IDs. 
 - `multiportals_without_light.vmf`: This instance can be used if you want to avoid using `light_dynamic` which may impact game performance. It is a cheaper but less visually appealing option.
 - `multiportals_without_sounds.vmf`: Use this instance if you prefer not to use custom sounds for the portals. It provides the same functionality but without sounds.
@@ -34,6 +34,21 @@ If you want, you can customize `.vmt` files to get more unique portal pairs!
 You can use up to ~127 portal pairs, which means up to ~127 MultiPortals instances. Yes, it's utter madness!!
 
 If you're not sure how to use it, check out the examples provided in the `Examples` folder.
+
+## Why MultiPortals?
+MultiPortals is the most flexible and easy-to-use solution for customizing portals in Workshop maps:
+- Quick, simple setup in Hammer Editor!
+![Animation](https://imgur.com/18jVXvj.gif)
+- Choose your own custom portal colors for Workshop maps!
+![Animation](https://imgur.com/dnNgIud.gif)
+- Portals look visually identical to the originals!
+![Animation](https://imgur.com/ErA0g1r.gif)
+- Support for up to 127 different portal pairs with individualized settings!
+![Animation](https://imgur.com/DFhnTDc.gif)
+- Smooth, dynamic lighting from each colored portal!
+![Animation](https://imgur.com/WA6xOyZ.gif)
+- Customizable ghosting for each portal!
+![Animation](https://imgur.com/9Bzjj0a.gif)
 
 ## Examples
 
