@@ -1,0 +1,16 @@
+PortalStaticOverlay
+{
+    $staticblendtexture "MultiPortals/ghosting"
+    $ghostoverlay 2
+    // $Additive 1
+    $model 1
+    $staticamount "0.55"
+    $vertexcolor 1
+    $vertexalpha 1
+    $staticblendtextureframe 10
+    Proxies
+    {
+        "MaterialModify" {}
+        "MaterialModifyAnimated" {}
+    }
+}
