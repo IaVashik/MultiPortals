@@ -1,5 +1,5 @@
 <div align="center">
-<img src="other\logo.png" alt="Logo" >
+<img src="Other\logo.png" alt="Logo" >
 
 <h2 align="center">
     Your portals. Your colors. Your rules!
