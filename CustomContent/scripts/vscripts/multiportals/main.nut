@@ -26,7 +26,7 @@ colors <- [
 ]
 
 function findColorIndex(R, G, B) {
-    if (abs(R - G) <= 10 && abs(G - B) <= 10 && abs(B - R) <= 10)       // Gray
+    if (abs(R - G) <= 17 && abs(G - B) <= 17 && abs(B - R) <= 17)       // Gray
         return 0
 
     local min_distance = 1000000.0 
