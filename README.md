@@ -38,7 +38,7 @@ If you're not sure how to use it, check out the examples provided in the `Exampl
 ## Why MultiPortals?
 MultiPortals is the most flexible and easy-to-use solution for customizing portals in Workshop maps:
 - Quick, simple setup in Hammer Editor!
-![Animation](https://imgur.com/18jVXvj.gif)
+<!-- ![Animation](https://imgur.com/18jVXvj.gif) -->
 - Choose your own custom portal colors for Workshop maps!
 ![Animation](https://imgur.com/dnNgIud.gif)
 - Portals look visually identical to the originals!
@@ -67,10 +67,6 @@ The MultiPortals package includes the following example maps:
     <img src="Other\DynamicLitDefaultPortals.jpg">
 
 Feel free to explore these example maps to gain a better understanding of how to utilize the MultiPortals package's features and unleash your creativity <3
-
-## How It Works
-
-To understand how MultiPortals works, watch the YouTube video linked here: (later)
 
 ## Credits
 The MultiPortals was created by <a href="https://www.youtube.com/@laVashikProductions">laVashik</a>. Please give credit to laVashik when using this library in your projects :>
