@@ -41,7 +41,7 @@ function findColorIndex(R, G, B) {
         
         if (distance < min_distance) {
             min_distance = distance
-            closest_idx = index
+            closest_idx = index + 1
         }
     }
 
