@@ -38,17 +38,22 @@ If you're not sure how to use it, check out the examples provided in the `Exampl
 ## Why MultiPortals?
 MultiPortals is the most flexible and easy-to-use solution for customizing portals in Workshop maps:
 - Quick, simple setup in Hammer Editor!
-<!-- ![Animation](https://imgur.com/18jVXvj.gif) -->
+
 - Choose your own custom portal colors for Workshop maps!
 ![Animation](https://imgur.com/dnNgIud.gif)
 - Portals look visually identical to the originals!
-![Animation](https://imgur.com/ErA0g1r.gif)
+  
+https://github.com/IaVashik/MultiPortals/assets/105387234/2badbdad-2395-4e56-98d3-590659ddc616
 - Support for up to 127 different portal pairs with individualized settings!
-![Animation](https://imgur.com/DFhnTDc.gif)
+
+https://github.com/IaVashik/MultiPortals/assets/105387234/e5493d9a-1185-4ad5-a430-ed523d6c0496
+
 - Smooth, dynamic lighting from each colored portal!
-![Animation](https://imgur.com/WA6xOyZ.gif)
+  
+https://github.com/IaVashik/MultiPortals/assets/105387234/3a8c03d9-6f9e-4fb2-ba26-f8443ffe7540
 - Customizable ghosting for each portal!
-![Animation](https://imgur.com/9Bzjj0a.gif)
+
+https://github.com/IaVashik/MultiPortals/assets/105387234/33a39fa1-da8a-4f4c-8b7f-6758896cf728
 
 ## Examples
 
